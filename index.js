@@ -10,9 +10,9 @@ const nestedTarget =() =>{
 
 const increaseRankBy =(n)=>{
     var upRank = document.getElementById('app').querySelectorAll('ul.ranked-list')
-    upRank.forEach(function(rank){
-    rank.innerHTML = parseInt(rank.innerHTML+n)
-  })
+    for(let i =0; i<upRank.length; i++){
+      upRank[i].innerHTML = parseInt(upRank[i].innerHTML+ n)
+    }
 }
 
 const deepestChild =()=>{
