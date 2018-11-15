@@ -7,3 +7,7 @@ const nestedTarget =() =>{
   return document.getElementById('nested').querySelectorAll('div')[3]
  
 }
+
+const deepestChild =()=>{
+  return document.getElementById('')
+}
