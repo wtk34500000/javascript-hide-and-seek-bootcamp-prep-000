@@ -8,7 +8,9 @@ const nestedTarget =() =>{
  
 }
 
-const increaseRankBy =()
+const increaseRankBy =(n)=>{
+  let rank = 
+}
 
 const deepestChild =()=>{
   return document.getElementById('grand-node').querySelectorAll('div')[3]
