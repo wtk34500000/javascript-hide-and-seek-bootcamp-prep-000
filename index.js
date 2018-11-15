@@ -9,5 +9,5 @@ const nestedTarget =() =>{
 }
 
 const deepestChild =()=>{
-  return document.getElementById('grand-node').querySelectorAll('div')[]
+  return document.getElementById('grand-node').querySelectorAll('div')[4]
 }
