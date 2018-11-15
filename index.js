@@ -14,7 +14,6 @@ const increaseRankBy =(n)=>{
     rank.innerHTML = parseInt(rank.innerHTML+n)
     
   })
-  
 }
 
 const deepestChild =()=>{
