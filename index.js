@@ -9,7 +9,7 @@ const nestedTarget =() =>{
 }
 
 const increaseRankBy =(n)=>{
-  let rank = 
+  let rank = document.getElementById('app').querySelectorAll("")
 }
 
 const deepestChild =()=>{
