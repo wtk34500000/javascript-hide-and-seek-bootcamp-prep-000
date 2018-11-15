@@ -11,7 +11,7 @@ const nestedTarget =() =>{
 const increaseRankBy =(n)=>{
   let upRank = document.getElementById('app').querySelectorAll('ul.ranked-list')
   upRandk.forEach(function(rank){
-    rank.innerHTML = 
+    rank.innerHTML = parseInt(rank.innerHTML+n)
     
   })
   
